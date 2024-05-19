@@ -1,3 +1,40 @@
 body {
-    background-color: cornflowerblue;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 175%;
+}
+.box{
+    width: calc(33.33% - 20px);
+    background-color: #999;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    float: left;
+    padding: 40px 15px 15px 15px;
+    position: relative;
+    margin: 10px;
+}
+.title{
+    font-size: 125%;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 120px;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.pink{
+    background-color: #d59898;
+}
+.red{
+    background-color: #c14543;
+    color: #fff;
+}
+.yellow{
+    background-color: #e5d198;
 }
