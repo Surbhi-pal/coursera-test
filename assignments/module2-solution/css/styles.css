@@ -1,14 +1,16 @@
 body {
     font-family: "Poppins", sans-serif;
     padding: 0;
+    margin: 15px;
 }
-.heading{
+
+.heading {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     font-size: 175%;
 }
-.box{
-    width: calc(33.33% - 20px);
+
+.box {
     background-color: #999;
     border: 1px solid #000;
     box-sizing: border-box;
@@ -17,24 +19,56 @@ body {
     position: relative;
     margin: 10px;
 }
-.title{
+
+.title {
     font-size: 125%;
     font-weight: 600;
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
     width: 120px;
     text-align: center;
     border-left: 1px solid #000;
     border-bottom: 1px solid #000;
 }
-.pink{
+
+.pink {
     background-color: #d59898;
 }
-.red{
+
+.red {
     background-color: #c14543;
     color: #fff;
 }
-.yellow{
+
+.yellow {
     background-color: #e5d198;
+}
+
+/* desktop */
+@media (min-width:992px) {
+    .col-md-3{
+        width: calc(33.33% - 20px);
+    }
+}
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+    .heading {
+        margin-bottom: 30px;
+    }
+    .col-sm-6{
+        width: calc(50% - 20px);
+    }
+    .col-sm-12{
+        width: calc(100% - 20px);
+    }
+}
+/* mobile */
+@media (max-width:767px) {
+    .heading {
+        margin-bottom: 20px;
+    }
+    .col-xs-12{
+        width: calc(100% - 20px);
+    }
 }
